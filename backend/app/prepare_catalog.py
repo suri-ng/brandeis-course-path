@@ -31,6 +31,8 @@ def prepare_catalog() -> None:
 
         courses = parse_courses(document)
         print(f"Extracted {len(courses)} courses from {source.name}")
+        for course in courses[:3]:
+            print(course)
         # prerequisite parsing and catalog generation come next
 
 def main() -> None:

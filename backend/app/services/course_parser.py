@@ -6,6 +6,9 @@ from dataclasses import dataclass
 
 from bs4 import BeautifulSoup, Tag
 
+from app.models import Course
+from app.services.prereq_parser import parse_prerequisites
+
 
 @dataclass(frozen=True)
 class RawCourse:
@@ -22,7 +25,6 @@ COURSE_HEADING_PATTERN = re.compile(
     r"^(?P<code>[A-Z]{2,5}\s+\d+[A-Za-z]?)\s+(?P<title>.+)$"
 )
 WHITESPACE_PATTERN = re.compile(r"\s+")
-CORE_REQUIREMENT_PATTERN = re.compile(r"^\[[^]]+\]$")
 PREREQUISITE_PATTERN = re.compile(r"^Prerequisites?:\s*", re.IGNORECASE)
 
 
@@ -57,33 +59,33 @@ def _extract_raw_course(entry: Tag) -> RawCourse | None: #return singular RawCou
         return None
 
     code, title = parsed_heading
-    parts = _entry_text_parts(entry)
+    requirement_codes = [
+        _normalize_text(requirement.get_text(" ", strip=True))
+        for requirement in entry.select("span.requirement")
+    ]
+    core_req_text = (
+        f"[ {' '.join(requirement_codes)} ]" if requirement_codes else ""
+    )
 
-    if parts and parts[0] == heading_text: # if list is not empty and first item of the list is heading_text then parts is the rest of the list
-        parts = parts[1:]
-
-    core_req_text = ""
     pre_req_text = ""
-    description_parts: list[str] = []
+    details = entry.find("p")
+    detail_parts = _entry_text_parts(details) if details is not None else []
 
-    for part in parts:
-        if not core_req_text and CORE_REQUIREMENT_PATTERN.fullmatch(part):
-            core_req_text = part
-        elif not pre_req_text and PREREQUISITE_PATTERN.match(part):
-            pre_req_text = PREREQUISITE_PATTERN.sub("", part, count=1)
-        else:
-            description_parts.append(part)
+    if detail_parts and PREREQUISITE_PATTERN.match(detail_parts[0]):
+        pre_req_text = PREREQUISITE_PATTERN.sub(
+            "", detail_parts.pop(0), count=1
+        )
 
     return RawCourse(
         code=code,
         title=title,
-        description=_normalize_text(" ".join(description_parts)),
+        description=_normalize_text(" ".join(detail_parts)),
         core_req_text=core_req_text,
         pre_req_text=pre_req_text,
     )
 
 
-def parse_courses(document: BeautifulSoup) -> list[RawCourse]: # return list of RawCourse
+def parse_raw_courses(document: BeautifulSoup) -> list[RawCourse]:
     courses: list[RawCourse] = []
 
     for entry in document.select(COURSE_ENTRY_SELECTOR):
@@ -93,3 +95,19 @@ def parse_courses(document: BeautifulSoup) -> list[RawCourse]: # return list of 
             courses.append(course)
 
     return courses
+
+
+def _build_course(raw: RawCourse) -> Course:
+    core_requirements = raw.core_req_text.strip("[] ").split()
+
+    return Course(
+        code=raw.code,
+        title=raw.title,
+        description=raw.description,
+        core_req=core_requirements,
+        pre_req=parse_prerequisites(raw.pre_req_text),
+    )
+
+
+def parse_courses(document: BeautifulSoup) -> list[Course]:
+    return [_build_course(raw) for raw in parse_raw_courses(document)]
