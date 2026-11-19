@@ -27,9 +27,10 @@ IGNORED_CLAUSE_PATTERNS = (
     re.compile(r"\b(?:and|or)?\s*(?:an )?equivalent(?:s)?\b", re.I),
     re.compile(r"\b(?:and|or)?\s*at least \w+ standing\b", re.I),
     re.compile(r"\b(?:and|or)?\s*\w+ standing\b", re.I),
+    re.compile(r"\b[A-Z]{2,5}\s+\d{1,3}[a-z]{1,2}\s+placement exam\b", re.I),
 )
 NON_PREREQUISITE_TAIL_PATTERN = re.compile(
-    r"\b(?:May not be taken|Students must|Juniors? and seniors?|"
+    r"\b(?:May not be taken|Students must|Students may take|Juniors? and seniors?|"
     r"Enrollment|Priority|Yields)\b.*$",
     re.I,
 )

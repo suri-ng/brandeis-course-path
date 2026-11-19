@@ -28,7 +28,7 @@ def fetch_catalog_page(url: str) -> str:
         ) from exc
     except requests.RequestException as exc:
         raise CatalogFetchError(
-            f"Cout not fetch {url}: {exc}"
+            f"Could not fetch {url}: {exc}"
         ) from exc
 
     return response.text # HTML string

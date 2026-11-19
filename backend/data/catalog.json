@@ -1,0 +1,4132 @@
+{
+  "nodes": [
+    {
+      "code": "ANTH 111a",
+      "data": {
+        "code": "ANTH 111a",
+        "title": "Aging in Cross-Cultural Perspective",
+        "description": "Examines the meanings and social arrangements given to aging in a diversity of societies, including the U.S., India, Japan and China. Key themes include: the diverse ways people envision and organize the life course, scholarly and popular models of successful aging, the medicalization of aging in the U.S., cultural perspectives on dementia, and the ways national aging policies and laws are profoundly influenced by particular cultural models. Usually offered every second year.",
+        "core_req": [
+          "djw",
+          "nw",
+          "ss",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "ANTH 154a",
+      "data": {
+        "code": "ANTH 154a",
+        "title": "Culture and Mental Illness",
+        "description": "Without underestimating the importance of biological causes and treatments, this course challenges the hegemony of bio-medical models in psychiatry by seeking to conceptualize emotional problems and mental illness as historically situated and culturally constructed. Examines how factors related to political circumstances, social institutions, religious belief systems, socio-economic status, and ethnic background participate in shaping forms of distress and the ways they are dealt with in various socio-cultural settings. The course will also consider alternative therapies such as art therapy, community-based treatments, and culturally specific approaches to emotional healing and accommodation. Usually offered every third year.",
+        "core_req": [
+          "ss",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "ANTH 155b",
+      "data": {
+        "code": "ANTH 155b",
+        "title": "Psychological Anthropology",
+        "description": "An examination of the relationship between sociocultural systems and individual psychological processes with a critical evaluation of selected theories and studies bearing on this problem. Usually offered every second year.",
+        "core_req": [
+          "djw",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "ANTH 165b",
+      "data": {
+        "code": "ANTH 165b",
+        "title": "Anthropology of Death and Dying",
+        "description": "Explores how different societies, including our own, conceptualize death and dying. Topics include the cultural construction of death, the effects of death on the social fabric, mourning and bereavement, and medical issues relating to the end of life. Usually offered every third year.",
+        "core_req": [
+          "djw",
+          "nw",
+          "ss",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "BIOL 100b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 105b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 122a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 128a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 12a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 14a",
+      "data": {
+        "code": "BIOL 14a",
+        "title": "Genetics and Genomics",
+        "description": "Studies fundamentals of genetics, molecular biology and genomics through analytical thinking and problem-solving. Topics include heredity, meiosis, molecular basis of phenotypic variations, and an introduction to tools and techniques used by past and current researchers in genetics and molecular biology . Usually offered every semester.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "BIOL 15b",
+      "data": {
+        "code": "BIOL 15b",
+        "title": "Cells and Organisms",
+        "description": "Introduces contemporary biology with an emphasis on proteins, cells, and tissues. Topics include molecular interactions and forces essential for the forms and functions of macromolecules, organelles, and cells, the integration of cells into tissues, and cellular metabolic processes. The course is intended to prepare students to understand the biology of everyday life, and to provide a strong foundation for those who continue to study the life sciences. Usually offered every semester.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "BIOL 16a",
+      "data": {
+        "code": "BIOL 16a",
+        "title": "Evolution and Biodiversity",
+        "description": "\"Nothing in biology makes sense except in the light of evolution,\" the geneticist Theodosius Dobzhansky said famously. Evolution is the unifying theory of biology because it explains both the unity and diversity of life. This course examines processes and patterns of evolution. Specific topics include the history of Earth and life, evolution and its mechanisms, phylogenetic trees, and the diversity of life. We will take time to read Darwin’s On the Origin of Species and end with a discussion of human evolution and the impact we are having on the planet. Usually offered every fall.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "BIOL 18a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 18b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BIOL 51a",
+      "data": {
+        "code": "BIOL 51a",
+        "title": "Biostatistics",
+        "description": "An introductory level biostatistics class providing an overview to statistical methods used in biological and medical research. Topics include descriptive statistics, elementary probability theory, commonly observed distributions, basic concepts of statistical inference, hypothesis testing, regression, as well as analysis of variance. Basic statistical analysis using the R software package will be introduced. Usually offered every year.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "BIOL 14a",
+            "BIOL 15b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "BUS 109a",
+      "data": {
+        "code": "BUS 109a",
+        "title": "Human Psychology and Financial Decision Making",
+        "description": "Behavioral Economics and Finance applies insights from psychology to understand the observed behavior of people and markets. It is traditional in economics and finance to assume that economic agents are 'perfectly rational,' meaning they make decisions in accordance with logic and statistics textbooks, they see the world accurately, they have perfect recall, and they are perfectly selfish. This approach has provided insights of great practical value and explains a lot of what we know about financial markets and corporate decisions, but it leaves much of the real world unexplained. Why do stock prices, house prices, and exchange rates sometimes go through bubbles, rising far higher than justified by fundamentals and then crashing? Why do retail investors trade too much, and why don't they diversify enough? Why don't people save enough for retirement? Usually offered every other year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "ECON 2a",
+            "ECON 10a",
+            "BUS 71a",
+            "FIN 103a",
+            "ECON 171a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "BUS 10a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BUS 120a",
+      "data": {
+        "code": "BUS 120a",
+        "title": "Organizational Behavior in Business",
+        "description": "Covers the fundamentals of organizational behavior, including topics like leadership, work motivation, organizational culture, organizational structure, group dynamics, perception, and decision-making in a global environment. Assignments include individual and group project analyses focused on topical business issues using course concepts. Usually offered every semester.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "BUS 6a",
+            "BUS 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "BUS 6a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "BUS 71a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "CHEM 11a",
+      "data": {
+        "code": "CHEM 11a",
+        "title": "General Chemistry I",
+        "description": "This course may not be taken for credit by students who have passed CHEM 15a in previous years. Four class hours and one sixty-minute structured study group session per week. The corresponding lab is CHEM 18a. Covers a wide array of topics, embracing aspects of descriptive, as well as quantitative, chemistry. No prior study of chemistry is assumed, as the course begins by looking at the atomic foundation of matter, the elements, and the organization of the periodic table, working its way up to studying how atoms are bonded together to form larger units of matter. Students who complete this course will have an understanding of the three major phases of matter--solids, liquids, and gasses--and how they behave, as well as a knowledge of the major types of chemical reactions and how to represent them. A strong focus is put on learning methods of creative problem-solving, using the material as a way to develop creative approaches to solving unfamiliar problems--a skill that carries students far beyond the confines of the classroom. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "CHEM 11b",
+      "data": {
+        "code": "CHEM 11b",
+        "title": "General Chemistry II",
+        "description": "Picks up where Chemistry 11a left off, advancing students' understanding of bonding models and molecular structure and exploring the basics of coordination chemistry. Three major quantitative topics are covered in the second half of General Chemistry'chemical equilibrium (including acid-base chemistry, solubility, and complex-ion formation), chemical kinetics, and thermodynamics. Other topics explored are electrochemistry and nuclear chemistry. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "CHEM 11a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "CHEM 15a",
+      "data": {
+        "code": "CHEM 15a",
+        "title": "Intensive General Chemistry I",
+        "description": "This course may not be taken for credit by students who have passed CHEM 11a in previous years. Three class hours and one recitation per week. The corresponding laboratory is CHEM 19a. An advanced version of general chemistry for students with good preparation in math and chemistry in high school. Topics include chemical stoichiometry, chemical bonding from a classical and quantum mechanical perspective, gasses, thermochemistry, solutions, states of matter, atomic structure and periodic properties. Real world examples are used to demonstrate the concepts. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "CHEM 15b",
+      "data": {
+        "code": "CHEM 15b",
+        "title": "Intensive General Chemistry II",
+        "description": "A continuation of CHEM 15a. Topics include an introduction to thermodynamics, chemical equilibria, including acid-base and solubility equilibria, electrochemistry, chemical kinetics, nuclear chemistry, and special topics. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "CHEM 15a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 101a",
+      "data": {
+        "code": "COSI 101a",
+        "title": "Fundamentals of Artificial Intelligence",
+        "description": "Survey course in artificial intelligence. Introduction to Lisp and heuristic programming techniques. Topics include problem solving, planning natural language processing, knowledge representation, and computer vision. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 103a",
+      "data": {
+        "code": "COSI 103a",
+        "title": "Fundamentals of Software Engineering",
+        "description": "In this course, you will learn (and practice) the design and construction of large bodies of software using modern software engineering practices, including object oriented design, test driven development, working data, and project management. You will be challenged to solve different kinds of problems, using different approaches and different tools. The course also aims to teach the basic and expected knowledge and practice within industry for entry level developers. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 12b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 104a",
+      "data": {
+        "code": "COSI 104a",
+        "title": "Introduction to Machine Learning",
+        "description": "Cannot be taken by students who completed COSI/ECON 148b or ECON 148b.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 12b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 106b",
+      "data": {
+        "code": "COSI 106b",
+        "title": "Automation in Software Development",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 107a",
+      "data": {
+        "code": "COSI 107a",
+        "title": "Introduction to Computer Security",
+        "description": "COSI 12b.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 108a",
+      "data": {
+        "code": "COSI 108a",
+        "title": "Designing and Analyzing Games",
+        "description": "An introduction to the fundamentals of game design, focusing on the decisions that shape a game’s mechanics, goals, rules, and themes. Through a combination of hands-on group activities, discussions, and written work, students develop original game prototypes and engage in iterative playtesting and critique. The course emphasizes data-informed design approaches, rapid prototyping, and effective idea pitching, while encouraging experimentation and learning through failure. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 10a",
+      "data": {
+        "code": "COSI 10a",
+        "title": "Introduction to Problem Solving in Python",
+        "description": "Open only to students with no previous programming background. Students may not take COSI 10a if they have received a passing grade in COSI 12b or COSI 21a. May not be taken for credit by students who took COSI 11a in prior years. Does not meet the requirements for the major or minor in Computer Science. Introduces computer programming and related computer science principles. Through programming, students will develop fundamental skills such as abstract reasoning and problem solving. Students will master programming techniques using the Python programming language and will develop good program design methodology resulting in correct, robust, and maintainable programs. Usually offered every semester.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 112a",
+      "data": {
+        "code": "COSI 112a",
+        "title": "Modal, Temporal, and Spatial Logic for Language",
+        "description": "Examines the formal and computational properties of logical systems that are used in AI and linguistics. This includes (briefly) propositional logic and first order logic, and then an in-depth study of modal logic, temporal logic, spatial logic, and dynamic logic. Throughout the analyses of these systems, focuses on how they are used in the modeling of linguistic data. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "COSI 29a",
+            "COSI 121b",
+            "LING 130a",
+            "PHIL 6a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 114a",
+      "data": {
+        "code": "COSI 114a",
+        "title": "Fundamentals of Natural Language Processing I",
+        "description": "COSI 12b or enrollment in the Master of Science in Computational Linguistics program. LING 100a is recommended but not required.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 115b",
+      "data": {
+        "code": "COSI 115b",
+        "title": "Fundamentals of Natural Language Processing II",
+        "description": "COSI 114a, plus at least one of LING 160b, MATH 10a, MATH 10b, MATH 15a, MATH 20a, MATH 22a, or equivalent knowledge.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 116a",
+      "data": {
+        "code": "COSI 116a",
+        "title": "Information Visualization",
+        "description": "Only MS4 students without COSI 12b can register with approval of the instructor.",
+        "core_req": [],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 12b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 119a",
+      "data": {
+        "code": "COSI 119a",
+        "title": "Autonomous Robotics",
+        "description": "COSI 21a, or instructor permission. Become part of the team developing 'Campus Rover', our long term project. Explore the fundamental 'big questions' in robotics: How do robots know what to do? How do they see the world? How do they know where they are? How do they know where to go? How do they control their bodies? How should robots behave around people? How can we get them to work together? Learn and understand Robot Operating System (ROS) and how software for robots is built. Solve gradually more advanced robotic problems, work with real robots in our Robotics Lab. This is a hands-on course, emphasizing real world implementations. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 120a",
+      "data": {
+        "code": "COSI 120a",
+        "title": "Topics in Computer Systems",
+        "description": "Content will vary from year to year. May be repeated for credit. Prerequisites may vary with the topic area; check with instructor for details. Usually offered every third year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 121b",
+      "data": {
+        "code": "COSI 121b",
+        "title": "Structure and Interpretation of Computer Programs",
+        "description": "An introduction to the idioms and paradigms of programming methodology—including functional, imperative, and object-oriented programming—and the fundamental mechanics of how languages work. Students examine data and type abstraction, on-demand (lazy) evaluation, and different philosophies of control flow, such as recursion and continuation-passing style. By analyzing parsing and abstract syntax, the course explores metalinguistic abstraction and language design. The curriculum culminates in the construction of a basic self-interpreter, capable of running JavaScript within itself. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 29a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 123a",
+      "data": {
+        "code": "COSI 123a",
+        "title": "Statistical Machine Learning",
+        "description": "Focuses on learning from data using statistical analysis tools and deals with the issues of designing algorithms and systems that automatically improve with experience. This course is designed to give students a thorough grounding in the methodologies, technologies, mathematics, and algorithms currently needed by research in learning with data. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 104a",
+            "MATH 8a",
+            {
+              "operator": "OR",
+              "items": [
+                "MATH 22a",
+                {
+                  "operator": "AND",
+                  "items": [
+                    "MATH 15a",
+                    "MATH 20a"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 124a",
+      "data": {
+        "code": "COSI 124a",
+        "title": "Information Extraction in Natural Language Processing",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 114a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 125a",
+      "data": {
+        "code": "COSI 125a",
+        "title": "Human-Computer Interaction",
+        "description": "Covers the basic theory and concepts of human-computer interaction. Topics include methodology for designing and testing user interfaces, interaction styles and techniques, design guidelines, and adaptive systems. The laboratory work is designed to give the student practice in a set of basic techniques used in the area of human-computer interaction. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 12b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 126a",
+      "data": {
+        "code": "COSI 126a",
+        "title": "Unsupervised Learning and Data Mining",
+        "description": "COSI 21a, COSI 104a, and either MATH 15a or MATH 22a. MATH 124a or knowledge of optimization is recommended.",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 127b",
+      "data": {
+        "code": "COSI 127b",
+        "title": "Database Management Systems",
+        "description": "Introduces database structure, organization, and languages. Studies relational and object-oriented models, query languages, optimization, normalization, file structures and indexes, concurrency control and recovery algorithms, and distributed databases. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 29a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 128a",
+      "data": {
+        "code": "COSI 128a",
+        "title": "Introduction to Computer Networking",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 12b",
+      "data": {
+        "code": "COSI 12b",
+        "title": "Advanced Programming Techniques in Java",
+        "description": "Studies advanced programming concepts and techniques utilizing the Java programming language. The course covers software engineering concepts, object-oriented design, design patterns and professional best practices. This is a required foundation course that will prepare you for more advanced courses, new programming languages, and frameworks. Usually offered every year.",
+        "core_req": [
+          "dl",
+          "sn",
+          "wi"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "COSI 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 130a",
+      "data": {
+        "code": "COSI 130a",
+        "title": "Introduction to the Theory of Computation",
+        "description": "Introduces topics in the theory of computation, including: finite automata and regular languages, pushdown automata and context-free languages, context-sensitive languages and Type 0 languages, Turing machines and Church's thesis, the halting problem and undecidability, and introduction to NP and PSPACE complete problems. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "COSI 29a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 131a",
+      "data": {
+        "code": "COSI 131a",
+        "title": "Fundamentals of Computer Systems",
+        "description": "Fundamental structures of a computer system from hardware abstractions through machine and assembly language, to the overall structure of an operating system and key resource management abstractions. Usually offered every year.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 132a",
+      "data": {
+        "code": "COSI 132a",
+        "title": "Information Retrieval",
+        "description": "COSI 21a and either COSI 114a or strong Python programming skills.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 135b",
+      "data": {
+        "code": "COSI 135b",
+        "title": "Computational Semantics",
+        "description": "A study of the computational treatment of core semantic phenomena in language. After a review of first-order logic and the lambda calculus, the course focuses on three core topics: interrogative structures, including semantics of questions, question-answering systems, dialogue, entailment, commonsense knowledge; meaning update and revision; and computational lexical semantics. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "COSI 10a",
+                "COSI 12b"
+              ]
+            },
+            {
+              "operator": "OR",
+              "items": [
+                "COSI 121b",
+                "LING 130a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 136a",
+      "data": {
+        "code": "COSI 136a",
+        "title": "Automatic Speech Recognition",
+        "description": "114a or permission of the instructor. Charts the evolution of automatic speech recognition by exploring the central question: What does it mean to statistically model speech? We begin with the foundational HMM-GMM tradition, which treated speech as a sequence of acoustic events modeled by probabilistic state machines. These acoustic models were historically guided by separate n-gram language models that imposed statistical constraints on word order. We then pivot to the modern deep learning era, examining how neural network architectures—which leverage components like attention, convolutions, and recurrent layers—revolutionized feature representation and sequential modeling to learn a single, unified statistical representation directly from audio. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 141a",
+      "data": {
+        "code": "COSI 141a",
+        "title": "System and Network Security",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 131a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 142a",
+      "data": {
+        "code": "COSI 142a",
+        "title": "Embedded Systems Development",
+        "description": "COSI 10a and COSI 131a.",
+        "core_req": [
+          "oc",
+          "sn",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 143b",
+      "data": {
+        "code": "COSI 143b",
+        "title": "Data Management for Data Science",
+        "description": "This experiential class will study techniques and systems for ingesting, processing, analyzing, and visualizing large data sets. The end goal of the class is to familiarize students with the data management tools and concepts that can support the full-stack of data science pipelines. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 144b",
+      "data": {
+        "code": "COSI 144b",
+        "title": "Advanced Topics in Security and Privacy",
+        "description": "COSI 131a and either COSI 107a or COSI 141a.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 146a",
+      "data": {
+        "code": "COSI 146a",
+        "title": "Principles of Computer System Design",
+        "description": "Topics on the design and engineering of computer systems: techniques for controlling complexity; strong modularity using client-server design; layering; naming; networks; security and privacy; fault-tolerant systems, atomicity and recovery; performance; impact of computer systems on society. Case studies of working systems and readings from the current literature provide comparisons and contrast. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 131a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 147a",
+      "data": {
+        "code": "COSI 147a",
+        "title": "Distributed Systems",
+        "description": "This course covers abstractions and implementation techniques for the design of distributed systems. Topics include: distributed state sharing, coherence, storage systems, naming systems, security, fault tolerance and replication, scalability and performance. The assigned readings for the course are from current literature. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 131a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 149b",
+      "data": {
+        "code": "COSI 149b",
+        "title": "Practical Machine Learning with Big Data",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 165b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 150a",
+      "data": {
+        "code": "COSI 150a",
+        "title": "Compiler Design",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 29a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 153a",
+      "data": {
+        "code": "COSI 153a",
+        "title": "Mobile and Web Development",
+        "description": "Recommended prerequisite: COSI 12b. Introduces the design and analysis of mobile applications that covers the architecture of mobile devices, APIs for graphical user interfaces on mobile devices, location-aware computing, social networking. Also covers the theory and practice of space and time optimization for these relatively small and slow devices. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 159a",
+      "data": {
+        "code": "COSI 159a",
+        "title": "Computer Vision",
+        "description": "Designed for undergraduate and graduate students majoring/minoring in computer science, the course covers core topics in image/video understanding, such as, object detection/recognition/tracking (with applications in face detection, gesture detection, pose detection), image segmentation (saliency detection, semantic segmentation, co-segmentation), image enhancement (super resolution, image recovery), visual relationship mining (spatial relationship, kinship), 3D reconstruction, image generation, optical flow, and video segmentation. It will also touch several advanced computer vision topics, such as, multi-view image clustering, image captioning, image generation from text, and visual question and answering. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "wi"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 10a",
+            "COSI 104a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 165b",
+      "data": {
+        "code": "COSI 165b",
+        "title": "Deep Learning",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 104a",
+            "MATH 8a",
+            "MATH 10a",
+            {
+              "operator": "OR",
+              "items": [
+                "MATH 15a",
+                "MATH 22a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 166b",
+      "data": {
+        "code": "COSI 166b",
+        "title": "Practicum in Computer Science",
+        "description": "",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 103a",
+            "COSI 104a",
+            "COSI 107a",
+            "COSI 114a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 167a",
+      "data": {
+        "code": "COSI 167a",
+        "title": "Advanced Data Systems",
+        "description": "",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 127b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 180a",
+      "data": {
+        "code": "COSI 180a",
+        "title": "Algorithms",
+        "description": "Explores a wide range of algorithms for various computational problems, focusing on their fundamental design principles. Usually offered every year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 21a",
+            "COSI 29a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 210a",
+      "data": {
+        "code": "COSI 210a",
+        "title": "Independent Study",
+        "description": "Usually offered every year. May be repeated once for credit.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 212b",
+      "data": {
+        "code": "COSI 212b",
+        "title": "Interactive Machine Learning Systems",
+        "description": "COSI 21a, COSI 104a, and COSI 116a.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 216a",
+      "data": {
+        "code": "COSI 216a",
+        "title": "Topics in Natural Language Processing",
+        "description": "Prerequisites vary by topic. The course can be repeated for credit with the approval of the instructor if the student has not previously taken the course covering the same topic.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 217a",
+      "data": {
+        "code": "COSI 217a",
+        "title": "Topics in Adaptive Systems",
+        "description": "123a are recommended but not required . The course can be repeated for credit with the approval of the instructor if the student has not previously taken the course covering the same topic.",
+        "core_req": [],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            {
+              "operator": "AND",
+              "items": [
+                "COSI 21a",
+                "COSI 101a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 217b",
+      "data": {
+        "code": "COSI 217b",
+        "title": "Natural Language Processing Systems",
+        "description": "Creating a usable, robust and extendable NLP system is an art, requiring good programming skills and NLP practices. Moreover, NLP systems do not exist in a vacuum and building such a system often requires working knowledge of databases, web services, and code packaging. This class will focus on the skills needed to build a real system, including software design, advanced coding, data handling, testing, building a website frontend backed up by a database, using Docker containers, and code authoring tools. Students will work in groups and individually and will build an NLP system implemented in Python. Usually offered every year.",
+        "core_req": [],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "COSI 115b",
+            "COSI 123a",
+            "COSI 165b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 21a",
+      "data": {
+        "code": "COSI 21a",
+        "title": "Data Structures and the Fundamentals of Computing",
+        "description": "Focuses on the design and analysis of algorithms and the use of data structures. Through the introduction of the most widely used data structures employed in solving commonly encountered problems. Students will learn different ways to organize data for easy access and efficient manipulation. The course also covers algorithms to solve classic problems, as well as algorithm design strategies; and computational complexity theory for studying the efficiency of the algorithms. Usually offered every year.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 12b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 230b",
+      "data": {
+        "code": "COSI 230b",
+        "title": "Natural Language Annotation for Machine Learning",
+        "description": "Either COSI 115b, or COSI 114a plus concurrent enrollment in COSI 115b. Studies corpus linguistics, the computational study of any naturally occurring fragment of language, a key area for data mining, information extraction, and machine learning. Students model, annotate, train, test, evaluate, and revise their own corpus for machine learning. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 231a",
+      "data": {
+        "code": "COSI 231a",
+        "title": "Advanced Machine Learning Methods for Natural Language Processing",
+        "description": "An introductory graduate-level course covering fundamental concepts in statistical Natural Language Processing (NLP). Provides an in-depth view of linear and neural machine learning methods used in NLP, including supervised and unsupervised methods used in text classification, sequence labeling, sequence-to-sequence transduction, and parsing of syntactic and semantic structures. Usually offered every year. Benjamin Wellner or Nianwen Xue",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 115b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 232b",
+      "data": {
+        "code": "COSI 232b",
+        "title": "Advanced Machine Learning Methods for Natural Language Processing II",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 231a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 233a",
+      "data": {
+        "code": "COSI 233a",
+        "title": "Discourse and Dialog",
+        "description": "A critical element of interactive systems is managing the dialog between the system and the user. This course will explore multiple approaches to implementing dialog management components, both symbolic and statistical, including what contextual information must be represented in the dialog states and the decision processes to move from one state to another. Students will implement a dialog manager using industry standards. Usually offered every second year.",
+        "core_req": [],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "COSI 231a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 293a",
+      "data": {
+        "code": "COSI 293a",
+        "title": "Computer Science Graduate Internship",
+        "description": "Permission of the graduate advising head required.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 293b",
+      "data": {
+        "code": "COSI 293b",
+        "title": "Computational Linguistics Research Internship",
+        "description": "Permission of the graduate advising head required. Offers graduate students an opportunity to engage in industrial research in computational linguistics by completing a paid or unpaid internship of at least ten weeks duration approved and monitored by a faculty member.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 293g",
+      "data": {
+        "code": "COSI 293g",
+        "title": "Master's Research Internship",
+        "description": "Permission of the Director of Graduate Studies required. Yields quarter-course credit. May be repeated for credit. Intended for Master's students. Offers graduate students an opportunity to engage in industrial research in computer science by completing a paid or unpaid internship of at least ten weeks duration approved and monitored by a faculty member. Usually offered every semester.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 295a",
+      "data": {
+        "code": "COSI 295a",
+        "title": "Computational Linguistics Capstone Project",
+        "description": "Permission of the graduate advising head required. Offers graduate students an opportunity to develop an independent project of original research as an active member of a computational linguistics research laboratory. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 299a",
+      "data": {
+        "code": "COSI 299a",
+        "title": "Computational Linguistics Master's Thesis",
+        "description": "Permission of the graduate advising head required. May be repeated once for credit.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 29a",
+      "data": {
+        "code": "COSI 29a",
+        "title": "Discrete Structures",
+        "description": "Covers topics in discrete mathematics with applications within computer science. Some of the topics to be covered include graphs and matrices; principles of logic and induction; number theory; counting, summation, and recurrence relations; discrete probability. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 300a",
+      "data": {
+        "code": "COSI 300a",
+        "title": "Master's Project",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 300b",
+      "data": {
+        "code": "COSI 300b",
+        "title": "Master's Project",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 393g",
+      "data": {
+        "code": "COSI 393g",
+        "title": "Graduate Research Internship",
+        "description": "Permission of the Director of Graduate Studies required. Yields quarter-course credit. May be repeated for credit. For Ph.D. students only. Offers Ph.D students an opportunity to engage in industrial research in computer science by completing a paid or unpaid internship of at least ten weeks duration and forty hours per week, approved and monitored by a faculty member. Usually offered every summer.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 400d",
+      "data": {
+        "code": "COSI 400d",
+        "title": "Dissertation Research",
+        "description": "Specific sections for individual faculty members as requested.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 91g",
+      "data": {
+        "code": "COSI 91g",
+        "title": "Introduction to Research Practice",
+        "description": "Students engage in computer science research by working with a faculty member for a minimum of 3 hours per week for one semester. Students who have declared a computer science major must receive permission from the computer science Undergraduate Advising Head as well as the faculty sponsor to enroll in COSI 91g. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 93a",
+      "data": {
+        "code": "COSI 93a",
+        "title": "Research Internship and Analysis",
+        "description": "Provides students with an opportunity to work in a computer science research lab for one semester, pursuing a project that has the potential to produce new scientific results. Students and the faculty member mutually design a project for the semester that supports the research agenda of the group. Students must attend all research group meetings and present their findings in oral and written form at the end of the semester. The project typically includes background research, some lab work, and collaboration with other group members. Course requires signature of the instructor, is subject to the availability of undergraduate research positions, and is typically open only to juniors and seniors.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 98a",
+      "data": {
+        "code": "COSI 98a",
+        "title": "Independent Study",
+        "description": "Open to exceptional students who wish to study an area of computer science not covered in the standard curriculum. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 98b",
+      "data": {
+        "code": "COSI 98b",
+        "title": "Independent Study",
+        "description": "Yields half-course credit. Open to exceptional students who wish to study an area of computer science not covered in the standard curriculum. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "COSI 99d",
+      "data": {
+        "code": "COSI 99d",
+        "title": "Senior Research",
+        "description": "Research assignments and preparation of a report under the direction of an instructor. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "ECON 10a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "ECON 171a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "ECON 2a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "ECON 83a",
+      "data": {
+        "code": "ECON 83a",
+        "title": "Statistics for Economic Analysis",
+        "description": "May not be taken concurrently with ECON 184b or repeated by students after the successful completion of ECON 184b. A first course in statistical inference. Topics include descriptive statistics, probability, normal and binomial distributions, sampling distributions, point and interval estimation, properties of estimators, hypothesis testing, regression, and analysis of variance. Usually offered every semester.",
+        "core_req": [
+          "dl",
+          "qr",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "ECON 2a",
+            "ECON 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "ED 173b",
+      "data": {
+        "code": "ED 173b",
+        "title": "The Psychology of Love: Education for Close Relationships",
+        "description": "Students will be selected after the submission of a sample of writing on adult loving relationships. What is love? How does it develop? How do psychologists study how people think, feel and behave in close relationships? These questions will guide our inquiry and inform our guiding question: how can we educate young people to better care for their friends, lovers and intimates? Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "FIN 103a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "HSSP 115b",
+      "data": {
+        "code": "HSSP 115b",
+        "title": "Perspectives on Behavioral Health: Alcohol, Drugs, and Mental Health",
+        "description": "A survey course which focuses on the science and biological basis of substance use and mental disorders, and linkages between behavioral health and general health. Consequences of behavioral health on society are discussed. Policy responses and the treatment system are assessed for their effectiveness. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "LGLS 142b",
+      "data": {
+        "code": "LGLS 142b",
+        "title": "Law and Psychology",
+        "description": "Examines a psychological perspective on the behavior of key players in the legal system, focusing on the trial process. Explores the tension between human behavior and legal ideals of objectivity, based on current research, emphasizing biases leading to miscarriages of justice. Examines areas for reform, including current debates, review of new and proposed legislation, pending cases, and emerging issues in psychological research. Usually offered every year.",
+        "core_req": [
+          "deis-us",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "LING 130a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "LING 173a",
+      "data": {
+        "code": "LING 173a",
+        "title": "Psycholinguistics",
+        "description": "Open to all students.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "LING 197a",
+      "data": {
+        "code": "LING 197a",
+        "title": "Language Acquisition and Development",
+        "description": "Open to all students.",
+        "core_req": [
+          "dl",
+          "oc",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 10a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 10b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 122a",
+      "data": {
+        "code": "MATH 122a",
+        "title": "Numerical Methods and Big Data",
+        "description": "Introduces fundamental techniques of numerical linear algebra widely used for data science and scientific computing. The purpose of this course is to introduce methods that are useful in applications and research. Usually offered every fall.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "MATH 15a",
+                {
+                  "operator": "AND",
+                  "items": [
+                    "MATH 22a",
+                    "MATH 20a"
+                  ]
+                },
+                "MATH 22b"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 124a",
+      "data": {
+        "code": "MATH 124a",
+        "title": "Optimization",
+        "description": "Explores the theory of mathematical optimization and its fundamental algorithms, emphasizing problems arising in machine learning, economics, and operations research. Topics include linear and integer programming, convex analysis, and duality. Usually offered every second year.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "MATH 15a",
+                "MATH 22a"
+              ]
+            },
+            {
+              "operator": "OR",
+              "items": [
+                "MATH 20a",
+                "MATH 22b"
+              ]
+            },
+            "MATH 23b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 125a",
+      "data": {
+        "code": "MATH 125a",
+        "title": "Mathematics for Machine Learning",
+        "description": "Prerequisites : MATH 15a (or MATH 22a), MATH 20a (or MATH 22b), and MATH 36a.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 15a",
+      "data": {
+        "code": "MATH 15a",
+        "title": "Linear Algebra",
+        "description": "Matrices, determinants, linear equations, vector spaces, eigenvalues, quadratic forms, linear programming. Emphasis on techniques and applications. Usually offered every semester.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "MATH 5a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 20a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 22a",
+      "data": {
+        "code": "MATH 22a",
+        "title": "Honors Linear Algebra",
+        "description": "Students may take MATH 15a or MATH 22a for credit, but not both. MATH 22a covers linear algebra. The material is similar to MATH 15a but with some additional content, a more theoretical emphasis, and more attention to proofs. Usually offered every fall.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "MATH 22b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 23b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 5a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "MATH 8a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "NBIO 136b",
+      "data": {
+        "code": "NBIO 136b",
+        "title": "Computational Neuroscience",
+        "description": "MATH 10a or higher and one of the following: NBIO 140b/240b, PHYS 10b/11b/15b, BIOL 107a, or any COSI course.",
+        "core_req": [
+          "dl",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 140b",
+      "data": {
+        "code": "NBIO 140b",
+        "title": "Principles of Neuroscience",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "BIOL 15b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 142b",
+      "data": {
+        "code": "NBIO 142b",
+        "title": "Circadian Rhythms and Sleep",
+        "description": "Explores via some lecturing, but predominantly discussion of papers from the primary literature, what we know about circadian rhythms and sleep in different organisms. We will discuss the molecular, cellular and circuitry control of rhythms and sleep as well as their behavioral and physiological consequences. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "NBIO 140b",
+            "NBIO 240a",
+            "BIOL 105b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 143b",
+      "data": {
+        "code": "NBIO 143b",
+        "title": "Developmental Neurobiology",
+        "description": "Discusses the molecular mechanisms used in the development of the nervous system in both invertebrate and vertebrate experimental systems. Topics include determination of neuronal cell fates, axon growth and guidance, plasticity during development, and mechanisms responsible for generation of connectivity in the nervous system. This course emphasizes reading of original scientific research papers and class discussion and oral presentations. If oversubscribed, preference from the waitlist will be given based on seniority. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "BIOL 14a",
+            "BIOL 15b",
+            {
+              "operator": "OR",
+              "items": [
+                "BIOL 12a",
+                "BIOL 18b"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 145b",
+      "data": {
+        "code": "NBIO 145b",
+        "title": "Circuits and Systems",
+        "description": "Explores fundamental questions in circuit-and systems-level neuroscience. We will take a systems-level perspective to explore how the brain supports behavior and cognition. The course emphasizes reading and presenting original papers, and writing summaries of original papers. Students will read and discuss seminal and current findings to understand how the brain represents and perceives the external environment, adapts and learns, executes control, and uses internal representations to make decisions and drive behavior. The focus will be on underlying circuits, neural representations, and neurophysiological mechanisms. Emphasis will be on bridging across these levels, and on critical analysis and synthesis. Usually offered every year.",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "NBIO 140b",
+            "NBIO 240a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 146a",
+      "data": {
+        "code": "NBIO 146a",
+        "title": "The Neurobiology of Human Disease",
+        "description": "A lecture- and literature-based examination of the molecular, cellular, and circuit level mechanisms underlying neurological and psychiatric diseases . Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "BIOL 100b",
+            "BIOL 105b",
+            "BIOL 122a",
+            "BIOL 128a",
+            "NBIO 140b",
+            "NBIO 143b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 147a",
+      "data": {
+        "code": "NBIO 147a",
+        "title": "Genetics of Behavior",
+        "description": "Topics include function of genes, genetic pathways, and neurons in the generation of behavior. The use of genetics and genetic manipulations in the study of behavior in a range of experimental organisms will be emphasized. Course will be based on reading primary research articles and requires active participation in class discussions. A solid understanding of the fundamentals of genetics, molecular biology, and neuroscience is essential for this course. Usually offered every second year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "BIOL 14a",
+            "NBIO 140b",
+            {
+              "operator": "OR",
+              "items": [
+                "BIOL 12a",
+                "BIOL 18a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 148b",
+      "data": {
+        "code": "NBIO 148b",
+        "title": "Cellular and Circuit Mechanisms of Experience Dependent Plasticity",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "NBIO 140b",
+            "NBIO 240a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NBIO 240a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "NPHY 115a",
+      "data": {
+        "code": "NPHY 115a",
+        "title": "Dynamical Systems",
+        "description": "ATH 10a, b or equivalent; MATH 15a and/or some coding experience would be helpful. An introduction to the theory of nonlinear dynamical systems, including bifurcations, limit cycles, chaos, and coupled oscillators. Covers analytical, computational, and graphical methods of solving sets of nonlinear ordinary differential equations, as well as mathematical modeling of natural phenomena. Examples will be drawn from physics, chemistry, population biology, and neuroscience. Usually offered every third year.",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 116a",
+      "data": {
+        "code": "NPSY 116a",
+        "title": "Human Motor Control: Rehabilitation and Technological Augmentation",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "NPSY 11b",
+                "NBIO 140b"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 11b",
+      "data": {
+        "code": "NPSY 11b",
+        "title": "Introduction to Behavioral Neuroscience",
+        "description": "Data and theories regarding current conceptions of brain-behavior relationships. Begins with an introduction to neural systems as classically defined (sensory, association, motor, autonomic), and moves on to examination of the biological underpinnings of various behaviors, from those relating to basic drives (reproduction, feeding) to those with a cognitive flavor. Throughout, the accent is on interactions between organisms and environment (learning). Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 120b",
+      "data": {
+        "code": "NPSY 120b",
+        "title": "Human Space Flight: Physics, Physiology, and Behavior",
+        "description": "Topics include how orbital flight is achieved, spacecraft life support systems, circulatory dynamics, sensory-motor control and vestibular function in free fall, the physiological and psychological adaptations necessary in space flight, and how astronauts must readapt on return to Earth. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 121b",
+      "data": {
+        "code": "NPSY 121b",
+        "title": "Alzheimer's Disease Resilience and Risk Factors",
+        "description": "",
+        "core_req": [
+          "oc",
+          "sn",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 12a",
+      "data": {
+        "code": "NPSY 12a",
+        "title": "Perception: Human, Animal, and Machine",
+        "description": "Examines the human senses, emphasizing sight and hearing, studied from standpoints of anatomy, physiology, and psychophysics. Insights from the study of special observers, including developmentally immature humans, members of nonhuman species, and people with abnormal sensory systems. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 139a",
+      "data": {
+        "code": "NPSY 139a",
+        "title": "Memory and the Brain",
+        "description": "NBIO 140b or NPSY 11b, or permission of the instructor. Explores the nature and organization of memory in the brain. Readings from primary literature will give a deeper understanding of how the brain orchestrates memory, and the role of memory in learning, behavior and cognition. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "ss",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 141a",
+      "data": {
+        "code": "NPSY 141a",
+        "title": "Stress, Physiology, and Health",
+        "description": "About a third of all diseases in western society are related to stress. The study of psychosocial determinants of health is a growing field, in which biological and psychological research is combined to understand pathways between CNS processes and health. We will study these processes in this course. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "NPSY 11b",
+            "NBIO 146a",
+            "PSYC 38a",
+            "NPSY 199a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 154a",
+      "data": {
+        "code": "NPSY 154a",
+        "title": "Human Memory",
+        "description": "Presents a systematic analysis of memory research and theory. The seminar will emphasize current research employing cognitive neuroscience methods, such as fMRI. Usually offered every second year. Angela Gutchess",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 52a",
+            "NBIO 140b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 155a",
+      "data": {
+        "code": "NPSY 155a",
+        "title": "Interpersonal Sensitivity",
+        "description": "PSYC 51a or equivalent, and PSYC 52 or NBIO 140b. Discusses social psychological and neuroscience research on how we understand, share and respond to the inner states of others. Implications for prosocial behavior and morality will be addressed. The focus is on interactive discussions and critical thinking about research findings. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 16a",
+      "data": {
+        "code": "NPSY 16a",
+        "title": "Motor Control",
+        "description": "May not be taken for credit by those who have previously taken NPSY 116A. Surveys control of vertebrate posture and movement from various perspectives including muscle properties, reflex organization, central pattern generation, spatial representations, learning, and development. Emphasizes research in physiology, psychology, biomechanics, and computational theory. Usually offered every second year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 170a",
+      "data": {
+        "code": "NPSY 170a",
+        "title": "Decision Neuroscience",
+        "description": "This course will provide an overview of how animal and human nervous systems generate decisions, with a particular focus on decisions for rewards. We will cover a broad array of topics, including: basic methods for measuring decisions and decision-related neural activity; how predictions about rewards are learned through error-driven processes; the dual systems hypothesis of behavioral control; computation of values for simple choices; the effect of emotion on choices; social decision making; temporal discounting; and deficits in decision-making in human clinical populations. Usually offered every year.",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            {
+              "operator": "AND",
+              "items": [
+                "NBIO 140b",
+                "NBIO 240a"
+              ]
+            },
+            {
+              "operator": "AND",
+              "items": [
+                "NPSY 11b",
+                "NPSY 22b"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 174b",
+      "data": {
+        "code": "NPSY 174b",
+        "title": "Visual Cognition",
+        "description": "Explores complex processes of visual perception. Topics include art and visual perception, visual perception by machines, visual imagery in everyday life, visual basis of reading, visual search, perceptual learning, computational models of visual perception, and face recognition. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 180a",
+      "data": {
+        "code": "NPSY 180a",
+        "title": "Social Neuroscience and Culture",
+        "description": "Introduces empirical research on a breadth of social neuroscience topics-- including the self, stereotyping, and moral reasoning--with a more focused coverage of culture. Emphasis will be placed on literature comparing Eastern and Western cultures. Usually offered every second year.",
+        "core_req": [
+          "djw",
+          "oc",
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "PSYC 51a",
+            "PSYC 52a",
+            {
+              "operator": "AND",
+              "items": [
+                "NBIO 140b",
+                "NBIO 240a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 182a",
+      "data": {
+        "code": "NPSY 182a",
+        "title": "Developmental Cognitive Neuroscience: Infancy through Adolescence",
+        "description": "Current research and methods in developmental cognitive neuroscience are surveyed through analysis of journal articles on language, memory, attention, executive functions, and social cognition. Infancy through adolescence are covered in both typically and atypically (Autism, ADHD, etc.) developing populations. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "ss",
+          "wi"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "NPSY 22b",
+            "PSYC 33a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 196b",
+      "data": {
+        "code": "NPSY 196b",
+        "title": "Advanced Topics in Cognition",
+        "description": "This seminar covers current issues and research in memory, aging, speech perception, and language comprehension. Emphasis will be placed on the current literature in the field. Usually offered every second year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 52a",
+            "NBIO 140b",
+            "NPSY 199a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 197a",
+      "data": {
+        "code": "NPSY 197a",
+        "title": "Advanced Topics in Behavioral Neuroscience",
+        "description": "Covers current research and issues pertaining to the neurobiology of perception (focusing mainly but not exclusively on perception of chemosensory signals) as well as the neurobiology of simple learning. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "NPSY 11b",
+            "NBIO 140b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 199a",
+      "data": {
+        "code": "NPSY 199a",
+        "title": "Human Neuropsychology",
+        "description": "Designed as an introduction to human neuropsychology. Topics include cerebral dominance, neuroanatomical mapping, and localization of function, with special reference to language, memory, and related cognitive function. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYCH 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 22b",
+      "data": {
+        "code": "NPSY 22b",
+        "title": "Introduction to Cognitive Neuroscience",
+        "description": "This course explores how the human brain makes the human mind. It covers neural and behavioral dimensions of attention, memory and learning, perception, motor control, plasticity and planning. Experimental approaches and neuroimaging are emphasized. Usually offered every year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "NPSY 28a",
+      "data": {
+        "code": "NPSY 28a",
+        "title": "Learning and Memory",
+        "description": "Introduces the study of learning and memory. The course will survey various types of memory (e.g., explicit memory, implicit memory, conditioning, short-term/working memory), including strategies, mechanisms, and brain systems. It will encompass disorders and applied aspects of memory. Usually offered every second year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a",
+            "MATH 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHIL 106b",
+      "data": {
+        "code": "PHIL 106b",
+        "title": "Mathematical Logic",
+        "description": "We continue our rigorous investigation of logic that we began in Phil6A by studying the metatheory of formal systems. We begin with an introduction to sets, relations, and functions, after which we prove the Soundness, Completeness, and Löwenheim-Skolem Theorems for First-Order Logic. We end by examining Turing machines in order to introduce students to the notions of computability and undecidability, and to prepare them for the more advanced study of Gödel's Incompleteness Theorems. Usually offered every second year.",
+        "core_req": [
+          "hum",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHIL 123b",
+      "data": {
+        "code": "PHIL 123b",
+        "title": "Neuroethics",
+        "description": "Focuses on the philosophical and ethical implications that arise from advances in neuroscience. We will investigate questions like: What are the evolutionary origins of moral judgment? Does evolutionary theory shed light on morality? Do our moral motivations derive from reason or pre-reflective intuition? Do psychopaths have moral responsibility? Do we have free will? Is there an obligation to enhance ourselves? Should drugs be used to enhance mental functioning? Is it moral to grow human organs in animals for purposes of transplantation? Usually offered every third year.",
+        "core_req": [
+          "hum"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHIL 6a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "PHYS 10a",
+      "data": {
+        "code": "PHYS 10a",
+        "title": "Introduction to Physical Laws and Phenomena I",
+        "description": "Usually taken with PHYS 18a.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 10b",
+      "data": {
+        "code": "PHYS 10b",
+        "title": "Introduction to Physical Laws and Phenomena II",
+        "description": "Usually taken with PHYS 18b.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 11a",
+      "data": {
+        "code": "PHYS 11a",
+        "title": "Introductory Physics I",
+        "description": "Corequisite: MATH 10a or the equivalent. Usually taken with PHYS 19a. An introduction to Newtonian mechanics with applications to several topics. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 11b",
+      "data": {
+        "code": "PHYS 11b",
+        "title": "Introductory Physics II",
+        "description": "Corequisite: MATH 10b or the equivalent. Usually taken with PHYS 19b. Prerequisite: PHYS 11a or equivalent. An introduction to electricity and magnetism and the special theory of relativity. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 15a",
+      "data": {
+        "code": "PHYS 15a",
+        "title": "Advanced Introductory Physics I",
+        "description": "Corequisite: MATH 10b or the equivalent. Usually taken with PHYS 19a. An advanced version of PHYS 11a for students with advanced preparation in physics and mathematics. An introduction to Newtonian mechanics with special applications to several topics. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 15b",
+      "data": {
+        "code": "PHYS 15b",
+        "title": "Advanced Introductory Physics II",
+        "description": "An advanced version of PHYS 11b for students with good preparation in physics and mathematics. An introduction to electricity and magnetism and the special theory of relativity for students with advanced preparation. Usually offered every year.",
+        "core_req": [
+          "qr",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "PHYS 11a",
+                "PHYS 15a"
+              ]
+            },
+            "MATH 10b",
+            "PHYS 19b"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PHYS 19b",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "POL 123a",
+      "data": {
+        "code": "POL 123a",
+        "title": "Seminar: Political Psychology",
+        "description": "Open to juniors, seniors, and graduate students. Explores public opinion, political socialization, and political behavior through the lens of psychology. Applying psychological theory to traditional topics in political science is emphasized. Usually offered every year.",
+        "core_req": [
+          "dl",
+          "ss",
+          "wi"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "POL 137b",
+      "data": {
+        "code": "POL 137b",
+        "title": "Seminar: Psychology of Political Violence",
+        "description": "Why do people become terrorists? Social scientists argue that organizations use terrorism because it is a rational means for obtaining their objectives. But why do individuals sacrifice themselves for a cause? Drawing on behavioral economics and criminal psychology in addition to political sociology, the course will review new approaches to the study of extreme political violence. Usually offered every second year.",
+        "core_req": [
+          "dl",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 10a",
+      "data": {
+        "code": "PSYC 10a",
+        "title": "Introduction to Psychology",
+        "description": "PSYC 10a is the introductory course for Psychology majors and is a prerequisite for most other courses in the major. A survey of contemporary psychology. Topics include brain and behavior, perception, memory, learning, cognitive processes, plasticity, intelligence, child and adult development, personality, social behavior, and the relationship between normal and abnormal behavior. Usually offered every semester.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 123a",
+      "data": {
+        "code": "PSYC 123a",
+        "title": "Applied Bayesian Modeling",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 51a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 130b",
+      "data": {
+        "code": "PSYC 130b",
+        "title": "Life Span Development: Early and Middle Adulthood",
+        "description": "Seminar on advanced topics in life span developmental theory and methodology. Substantive emphasis will be on cognitive, personality, social, and physical changes that occur in early adulthood and midlife. Usually offered every second year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a",
+            "PSYC 51a",
+            "PSYC 52a",
+            "PSYC 31a",
+            "PSYC 33a",
+            {
+              "operator": "OR",
+              "items": [
+                "PSYC 36b",
+                "PSYC 37a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 136b",
+      "data": {
+        "code": "PSYC 136b",
+        "title": "Advanced Topics in Developmental Psychology",
+        "description": "Provides students with detailed information about theories and special topics of research in developmental psychology. Usually offered every second year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            {
+              "operator": "AND",
+              "items": [
+                "PSYC 52a",
+                "PSYC 33a"
+              ]
+            },
+            "PSYC 36b",
+            "PSYC 37a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 148a",
+      "data": {
+        "code": "PSYC 148a",
+        "title": "Applied Statistical Computing in R",
+        "description": "Designed for graduate students and advanced undergraduates who like to learn the R statistical programming package, further their understanding of statistical modeling and its application in applied and academic research, use R to make the connection between statistical concepts, modeling, and their implementation, and use R to document their research process and enhance its reproducibility. Usually offered every second year.",
+        "core_req": [
+          "qr",
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 51a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 150a",
+      "data": {
+        "code": "PSYC 150a",
+        "title": "Of Minds and Machines: Exploring Technology and its Impact on Affect, Behavior, and Cognition",
+        "description": "",
+        "core_req": [
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 52a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 153b",
+      "data": {
+        "code": "PSYC 153b",
+        "title": "Psychology of Trauma and Adversity",
+        "description": "",
+        "core_req": [
+          "oc",
+          "sn"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a",
+            {
+              "operator": "OR",
+              "items": [
+                "PSYC 31a",
+                "PSYC 32a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 15a",
+      "data": {
+        "code": "PSYC 15a",
+        "title": "Biological Bases of Motivation",
+        "description": "Topics include hunger, thirst, migration, and sexual behavior. Evidence from biology, neurophysiology, and endocrinology is evaluated. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            {
+              "operator": "OR",
+              "items": [
+                "PSYC 10a",
+                "MATH 10a"
+              ]
+            }
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 160b",
+      "data": {
+        "code": "PSYC 160b",
+        "title": "Seminar on Sex Differences",
+        "description": "Considers research evidence bearing on sex differences in the cognitive domain and in the social domain, evaluating this evidence in light of biological, cultural, and social-cognitive theories as well as methodological issues. Usually offered every year.",
+        "core_req": [
+          "oc",
+          "sn",
+          "ss",
+          "wi"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a",
+            "PSYC 51a",
+            "PSYC 52a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 161a",
+      "data": {
+        "code": "PSYC 161a",
+        "title": "Clinical Psychology Practicum I",
+        "description": "Interested students should contact the instructor to schedule an interview before registering for this class. In conjunction with PSYC 161b, provides intensive supervised experience in mental health intervention. Students serve in helping roles as volunteers for eight hours a week in social service and mental health programs. They relate their experience to empirical and literary readings within the context of group supervision in weekly seminars. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            {
+              "operator": "AND",
+              "items": [
+                "PSYC 10a",
+                "PSYC 31a"
+              ]
+            },
+            "PSYC 32a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 161b",
+      "data": {
+        "code": "PSYC 161b",
+        "title": "Clinical Psychology Practicum II",
+        "description": "In conjunction with PSYC 161a, provides intensive supervised experience in mental health intervention. Students serve in helping roles as volunteers for eight hours a week in social service and mental health programs. They relate their experience to empirical and literary readings within the context of group supervision in weekly seminars. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 161a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 169b",
+      "data": {
+        "code": "PSYC 169b",
+        "title": "Developmental Psychopathology",
+        "description": "An overview of current research and approaches in the field of developmental psychopathology, including how biological, psychological, and social contextual factors interact to influence developmental trajectories, mental health risk, and resilience across the lifespan. Usually offered every semester.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 32a",
+            "PSYC 33a",
+            "PSYC 36a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 178b",
+      "data": {
+        "code": "PSYC 178b",
+        "title": "The Psychology of Prejudice",
+        "description": "Prejudice is everywhere. This class is intended to help you understand why. We will be reading decades of psychological literature illuminating the roots of prejudice, its many forms and how it may be stopped. Moreover, we will learn to use scientific evidence to inform our understanding of human interaction, create experiments of our own, and even study ourselves in a class-wide research project. Usually offered every second year.",
+        "core_req": [
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 52a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 210a",
+      "data": {
+        "code": "PSYC 210a",
+        "title": "Advanced Psychological Statistics I",
+        "description": "In conjunction with PSYC 210b, this course teaches students how to do independent data analysis in psychology at a PhD-level. Topics include methods for describing data, exploratory data analysis, elementary probability theory, null hypothesis significance testing and alternatives, one-way and factorial analysis of variance, and repeated measures analysis. Students receive extensive instruction in the use of R ( with options for students to use other computing platforms of their choice for course work ). Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 210b",
+      "data": {
+        "code": "PSYC 210b",
+        "title": "Advanced Psychological Statistics II",
+        "description": "This course is a continuation of PSYC 210a. Topics include statistical power analysis, simple correlation and regression, multiple regression, nonparametric statistics, an introduction of logistic regression, and a brief introduction to multivariate procedures. Students learn to use general linear model as a general data analytic system. Usually offered every year.",
+        "core_req": [],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 210a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 211a",
+      "data": {
+        "code": "PSYC 211a",
+        "title": "Graduate Research Methods in Psychology",
+        "description": "A required course for all master's degree students, first-year doctoral students, and selected undergraduate students by permission of the instructor. Students who are interested in this course must consult with the department one semester before anticipated enrollment. The lecture offers supervised practice in research design, including experimental and correlational designs, data analysis and interpretation, and formal presentation of research results. Usually offered every year in the fall semester.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 215a",
+      "data": {
+        "code": "PSYC 215a",
+        "title": "Multivariate Statistics I: Applied Structural Equation Modeling",
+        "description": "Knowledge of hypothesis testing and the basics of linear modeling such as ANOVA or simple linear regression. Covers theory, methods, and applications of structural equation modeling (SEM) using R (lavaan package). Introduces the conceptual and procedural principles underlying SEM, enables students to analyze data by using SEM methods, and exposes students to SEM techniques used in the literature. Usually offered every second year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 216a",
+      "data": {
+        "code": "PSYC 216a",
+        "title": "Multivariate Statistics II: Applied Multilevel Hierarchical Linear Models",
+        "description": "Knowledge of hypothesis testing and the basics of linear modeling such as ANOVA or simple linear regression. Acquaints students with the basic theory, methods, and most importantly, applications of multilevel models (hierarchical linear models). This course is designed to introduce the conceptual and procedural principles underlying multilevel modeling; enable students to analyze data by using the multilevel modeling methods; and expose students to the literature in which the techniques have been used. R/Rstudio is the teaching platform. Usually offered every second year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 220a",
+      "data": {
+        "code": "PSYC 220a",
+        "title": "Research in Spatial Orientation",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 221a",
+      "data": {
+        "code": "PSYC 221a",
+        "title": "Research in Cognitive Development and Psychopathology",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 223a",
+      "data": {
+        "code": "PSYC 223a",
+        "title": "Research in Behavioral Neuroscience",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 224a",
+      "data": {
+        "code": "PSYC 224a",
+        "title": "Research in Speech Perception and Cognition",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 225a",
+      "data": {
+        "code": "PSYC 225a",
+        "title": "Research in Reward, Learning, and Decision Making",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 226a",
+      "data": {
+        "code": "PSYC 226a",
+        "title": "Research in Cognitive Processes and Psychopathology",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 228a",
+      "data": {
+        "code": "PSYC 228a",
+        "title": "Research in Adolescent Health Psychology",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 233a",
+      "data": {
+        "code": "PSYC 233a",
+        "title": "Research in Visual Cognition",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 234a",
+      "data": {
+        "code": "PSYC 234a",
+        "title": "Research in Life-Span Development",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 237b",
+      "data": {
+        "code": "PSYC 237b",
+        "title": "Research in Perceptual Development",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 239a",
+      "data": {
+        "code": "PSYC 239a",
+        "title": "Research in Human Motor Control",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 240b",
+      "data": {
+        "code": "PSYC 240b",
+        "title": "Research in Neurochemistry and Cognition",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 241a",
+      "data": {
+        "code": "PSYC 241a",
+        "title": "Research in Aging, Culture, and Cognition",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 242a",
+      "data": {
+        "code": "PSYC 242a",
+        "title": "Research in Forensics",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 245a",
+      "data": {
+        "code": "PSYC 245a",
+        "title": "Research in Social Neuroscience",
+        "description": "Open to PhD students only.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 250a",
+      "data": {
+        "code": "PSYC 250a",
+        "title": "Advanced Research Project",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 250b",
+      "data": {
+        "code": "PSYC 250b",
+        "title": "Master's Project Readings",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 280a",
+      "data": {
+        "code": "PSYC 280a",
+        "title": "Advanced Readings",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 298a",
+      "data": {
+        "code": "PSYC 298a",
+        "title": "Independent Study",
+        "description": "Usually offered upon request.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 299a",
+      "data": {
+        "code": "PSYC 299a",
+        "title": "Master's Thesis Research",
+        "description": "Open to students in the Master of Science program in psychology.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 300a",
+      "data": {
+        "code": "PSYC 300a",
+        "title": "Proseminar in Brain, Body, and Behavior I",
+        "description": "Open only to Psychology PhD students or with permission of the instructor. Offers an in-depth review of primary sources in several major topic areas of social and developmental psychology. Usually offered every second year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 302a",
+      "data": {
+        "code": "PSYC 302a",
+        "title": "Proseminar in Brain, Body, and Behavior II",
+        "description": "Open only to Psychology PhD students or with permission of the instructor. An in-depth review of primary sources in several major topic areas of social and developmental psychology. Usually offered every second year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 313a",
+      "data": {
+        "code": "PSYC 313a",
+        "title": "PhD Lab Rotations",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 313b",
+      "data": {
+        "code": "PSYC 313b",
+        "title": "PhD Lab Rotations",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 316a",
+      "data": {
+        "code": "PSYC 316a",
+        "title": "Psychology Research Seminar",
+        "description": "Required of all PhD students. Strongly encouraged for MA students. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 31a",
+      "data": {
+        "code": "PSYC 31a",
+        "title": "Personality",
+        "description": "Covers major personality theories and related research. Emphasis will be on application of theory, issues in personality assessment, and personality development across the life span. Usually offered every second year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 32a",
+      "data": {
+        "code": "PSYC 32a",
+        "title": "Psychopathology: Dis-ease, Risk, and Resilience",
+        "description": "A general introduction to psychopathology. Various theoretical models will be discussed. The techniques and findings of research, clinical, and experimental will be emphasized. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 33a",
+      "data": {
+        "code": "PSYC 33a",
+        "title": "Developmental Psychology",
+        "description": "An examination of normal child development from conception through adolescence. Course will focus on theoretical issues and processes of development with an emphasis on how biological and environmental influences interact. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 34b",
+      "data": {
+        "code": "PSYC 34b",
+        "title": "Social Psychology",
+        "description": "An introduction to theory and research on the psychological processes that relate the individual to the larger social world in terms of behaviors, thoughts, and feelings. Topics include attitudes, social perception, prejudice and discrimination, attraction, behavior in groups, and the role of culture. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 36a",
+      "data": null,
+      "is_external": true
+    },
+    {
+      "code": "PSYC 36b",
+      "data": {
+        "code": "PSYC 36b",
+        "title": "Adolescence and the Transition to Maturity",
+        "description": "Examines the core issues (identity, intimacy, sexuality, spirituality, etc.) that define development during adolescence and the transition to young adulthood. Heavy emphasis is placed on integrating research and theory in understanding adolescence and young adulthood. Usually offered every year.",
+        "core_req": [
+          "oc",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 37a",
+      "data": {
+        "code": "PSYC 37a",
+        "title": "The Psychology of Adult Development and Aging",
+        "description": "Describes the sensory, cognitive, personality, health, and social changes that occur during early, middle, and later adulthood. Emphasis is on pathways to successful development and healthy aging in the context of a shifting balance of gains and losses in psychological and physical functioning. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 38a",
+      "data": {
+        "code": "PSYC 38a",
+        "title": "Health Psychology",
+        "description": "An examination of the social and psychological factors important for well-being, physical health, and effective medical care. Psychological perspectives are applied to such topics as health promotion and compromise, the stress-illness relationship, social relations, chronic illness, death and dying, and health care provider and patient interactions. Usually offered every year.",
+        "core_req": [
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 400d",
+      "data": {
+        "code": "PSYC 400d",
+        "title": "Dissertation Research",
+        "description": "Specific sections for individual faculty members as requested.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 51a",
+      "data": {
+        "code": "PSYC 51a",
+        "title": "Statistics",
+        "description": "Covers the fundamentals of descriptive and inferential statistics. Techniques useful in the behavioral sciences will be emphasized. Students learn the theory of statistical decisions, practical application of statistical software, and how to analyze journal articles. Usually offered every semester.",
+        "core_req": [
+          "dl",
+          "qr",
+          "sn",
+          "ss"
+        ],
+        "pre_req": {
+          "operator": "OR",
+          "items": [
+            "PSYC 10a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 52a",
+      "data": {
+        "code": "PSYC 52a",
+        "title": "Research Methods and Laboratory in Psychology",
+        "description": "The laboratory/lecture offers supervised practice in experimental design, data analysis and interpretation, and formal presentation of experimental results. Usually offered every semester.",
+        "core_req": [
+          "qr",
+          "sn",
+          "ss",
+          "wi"
+        ],
+        "pre_req": {
+          "operator": "AND",
+          "items": [
+            "PSYC 10a",
+            "PSYC 51a"
+          ]
+        }
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 91g",
+      "data": {
+        "code": "PSYC 91g",
+        "title": "Introduction to Research Practice",
+        "description": "Students engage in Psychology research by working in the laboratory of a faculty member for a minimum of 3 hours per week for one semester. Students who have declared a Psychology major must receive permission from the Psychology Undergraduate Advising Head as well as the faculty sponsor to enroll in PSYC 91g. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 92a",
+      "data": {
+        "code": "PSYC 92a",
+        "title": "Internship and Analysis in Psychology",
+        "description": "Provides an opportunity for the student to supplement an off-campus internship experience with a related academic project. The specific requirements of the research component are negotiated by the student and the sponsoring faculty member. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 93a",
+      "data": {
+        "code": "PSYC 93a",
+        "title": "Independent Research in Psychological Sciences",
+        "description": "Supervised research experience in a psychology laboratory environment, culminating in a research proposal or report. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 98a",
+      "data": {
+        "code": "PSYC 98a",
+        "title": "Readings in Psychological Literature",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 98b",
+      "data": {
+        "code": "PSYC 98b",
+        "title": "Readings in Psychological Literature",
+        "description": "Yields half-course credit. Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYC 99d",
+      "data": {
+        "code": "PSYC 99d",
+        "title": "Senior Research",
+        "description": "Usually offered every year.",
+        "core_req": [],
+        "pre_req": null
+      },
+      "is_external": false
+    },
+    {
+      "code": "PSYCH 10a",
+      "data": null,
+      "is_external": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "BIOL 100b",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 105b",
+      "target": "NBIO 142b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 105b",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 122a",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 128a",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 12a",
+      "target": "NBIO 143b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 12a",
+      "target": "NBIO 147a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 14a",
+      "target": "BIOL 51a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 14a",
+      "target": "NBIO 143b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 14a",
+      "target": "NBIO 147a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 15b",
+      "target": "BIOL 51a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 15b",
+      "target": "NBIO 140b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 15b",
+      "target": "NBIO 143b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 18a",
+      "target": "NBIO 147a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BIOL 18b",
+      "target": "NBIO 143b",
+      "line_style": "solid"
+    },
+    {
+      "source": "BUS 10a",
+      "target": "BUS 120a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BUS 6a",
+      "target": "BUS 120a",
+      "line_style": "solid"
+    },
+    {
+      "source": "BUS 71a",
+      "target": "BUS 109a",
+      "line_style": "solid"
+    },
+    {
+      "source": "CHEM 11a",
+      "target": "CHEM 11b",
+      "line_style": "solid"
+    },
+    {
+      "source": "CHEM 15a",
+      "target": "CHEM 15b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 101a",
+      "target": "COSI 217a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 103a",
+      "target": "COSI 166b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 104a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 104a",
+      "target": "COSI 159a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 104a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 104a",
+      "target": "COSI 166b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 107a",
+      "target": "COSI 166b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 10a",
+      "target": "COSI 12b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 10a",
+      "target": "COSI 135b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 10a",
+      "target": "COSI 159a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 114a",
+      "target": "COSI 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 114a",
+      "target": "COSI 166b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 115b",
+      "target": "COSI 217b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 115b",
+      "target": "COSI 231a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 121b",
+      "target": "COSI 112a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 121b",
+      "target": "COSI 135b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 123a",
+      "target": "COSI 217b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 127b",
+      "target": "COSI 167a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 103a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 104a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 116a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 125a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 135b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 12b",
+      "target": "COSI 21a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 131a",
+      "target": "COSI 141a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 131a",
+      "target": "COSI 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 131a",
+      "target": "COSI 147a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 165b",
+      "target": "COSI 149b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 165b",
+      "target": "COSI 217b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 101a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 106b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 120a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 121b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 127b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 128a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 131a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 143b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 150a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 21a",
+      "target": "COSI 217a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 231a",
+      "target": "COSI 232b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 231a",
+      "target": "COSI 233a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 112a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 121b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 127b",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 130a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 150a",
+      "line_style": "solid"
+    },
+    {
+      "source": "COSI 29a",
+      "target": "COSI 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "ECON 10a",
+      "target": "BUS 109a",
+      "line_style": "solid"
+    },
+    {
+      "source": "ECON 10a",
+      "target": "ECON 83a",
+      "line_style": "solid"
+    },
+    {
+      "source": "ECON 171a",
+      "target": "BUS 109a",
+      "line_style": "solid"
+    },
+    {
+      "source": "ECON 2a",
+      "target": "BUS 109a",
+      "line_style": "solid"
+    },
+    {
+      "source": "ECON 2a",
+      "target": "ECON 83a",
+      "line_style": "solid"
+    },
+    {
+      "source": "FIN 103a",
+      "target": "BUS 109a",
+      "line_style": "solid"
+    },
+    {
+      "source": "LING 130a",
+      "target": "COSI 112a",
+      "line_style": "solid"
+    },
+    {
+      "source": "LING 130a",
+      "target": "COSI 135b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 11b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 12a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 16a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 199a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 22b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "NPSY 28a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10a",
+      "target": "PSYC 15a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 10b",
+      "target": "PHYS 15b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 15a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 15a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 15a",
+      "target": "MATH 122a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 15a",
+      "target": "MATH 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 20a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 20a",
+      "target": "MATH 122a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 20a",
+      "target": "MATH 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22a",
+      "target": "MATH 122a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22a",
+      "target": "MATH 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22b",
+      "target": "MATH 122a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 22b",
+      "target": "MATH 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 23b",
+      "target": "MATH 124a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 5a",
+      "target": "MATH 15a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 8a",
+      "target": "COSI 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "MATH 8a",
+      "target": "COSI 165b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NBIO 142b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NBIO 145b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NBIO 147a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NBIO 148b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 116a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 154a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 170a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 196b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 140b",
+      "target": "NPSY 197a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 143b",
+      "target": "NBIO 146a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 146a",
+      "target": "NPSY 141a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 240a",
+      "target": "NBIO 142b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 240a",
+      "target": "NBIO 145b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 240a",
+      "target": "NBIO 148b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 240a",
+      "target": "NPSY 170a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NBIO 240a",
+      "target": "NPSY 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 11b",
+      "target": "NPSY 116a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 11b",
+      "target": "NPSY 141a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 11b",
+      "target": "NPSY 170a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 11b",
+      "target": "NPSY 197a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 199a",
+      "target": "NPSY 141a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 199a",
+      "target": "NPSY 196b",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 22b",
+      "target": "NPSY 170a",
+      "line_style": "solid"
+    },
+    {
+      "source": "NPSY 22b",
+      "target": "NPSY 182a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PHIL 6a",
+      "target": "COSI 112a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PHYS 11a",
+      "target": "PHYS 15b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PHYS 15a",
+      "target": "PHYS 15b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PHYS 19b",
+      "target": "PHYS 15b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 11b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 12a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 16a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 22b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "NPSY 28a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 153b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 15a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 160b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 161a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 31a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 32a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 33a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 34b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 36b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 37a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 38a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 51a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 10a",
+      "target": "PSYC 52a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 161a",
+      "target": "PSYC 161b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 210a",
+      "target": "PSYC 210b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 31a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 31a",
+      "target": "PSYC 153b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 31a",
+      "target": "PSYC 161a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 32a",
+      "target": "PSYC 153b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 32a",
+      "target": "PSYC 161a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 32a",
+      "target": "PSYC 169b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 33a",
+      "target": "NPSY 182a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 33a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 33a",
+      "target": "PSYC 136b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 33a",
+      "target": "PSYC 169b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 36a",
+      "target": "PSYC 169b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 36b",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 36b",
+      "target": "PSYC 136b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 37a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 37a",
+      "target": "PSYC 136b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 38a",
+      "target": "NPSY 141a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "NPSY 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "PSYC 123a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "PSYC 148a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "PSYC 160b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 51a",
+      "target": "PSYC 52a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "NPSY 154a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "NPSY 180a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "NPSY 196b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "PSYC 130b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "PSYC 136b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "PSYC 150a",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "PSYC 160b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYC 52a",
+      "target": "PSYC 178b",
+      "line_style": "solid"
+    },
+    {
+      "source": "PSYCH 10a",
+      "target": "NPSY 199a",
+      "line_style": "solid"
+    }
+  ]
+}

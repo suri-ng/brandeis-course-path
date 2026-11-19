@@ -33,16 +33,16 @@ def validate_catalog_url(url: str) -> str:
     parsed = urlparse(url)
 
     if parsed.scheme != "https":
-        return InvalidCatalogUrl("URL must use a HTTPS.")
+        raise InvalidCatalogUrl("URL must use HTTPS.")
 
     if parsed.hostname != "www.brandeis.edu":
-        return InvalidCatalogUrl("URL must use www.brandeis.edu host.")
+        raise InvalidCatalogUrl("URL must use the www.brandeis.edu host.")
 
     if not SUBJECT_PATH_PATTERN.fullmatch(parsed.path):
-        return InvalidCatalogUrl("URL is not in the format for Subject Listing Areas Brandeis link")
+        raise InvalidCatalogUrl("URL must point to a Brandeis subject listing.")
 
     if parsed.params or parsed.query or parsed.fragment:
-        return InvalidCatalogUrl("URL should stay within the Subject Listing Areas page.")
+        raise InvalidCatalogUrl("URL cannot contain parameters, a query, or a fragment.")
 
     return url
 
@@ -51,10 +51,16 @@ def validate_catalog_sources(sources: list[CatalogSource]) -> list[CatalogSource
     seen_urls: set[str] = set()
 
     for source in sources:
+        context = f"{source.name} ({source.url})"
         if source.key in seen_keys:
-            return ValueError(f"Duplicate catalog source key: {source.key}")
+            raise InvalidCatalogUrl(f"Duplicate catalog source key {source.key!r} for {context}")
         if source.url in seen_urls:
-            return ValueError(f"Duplicate catalog source url: {source.url}")
+            raise InvalidCatalogUrl(f"Duplicate catalog source URL for {context}")
+
+        try:
+            validate_catalog_url(source.url)
+        except ValueError as exc:
+            raise InvalidCatalogUrl(f"Invalid catalog source for {context}: {exc}") from exc
 
         seen_keys.add(source.key)
         seen_urls.add(source.url)

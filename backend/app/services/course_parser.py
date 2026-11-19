@@ -2,6 +2,7 @@
 parse lines/elements into its right component of RawCourse"""
 
 import re
+from collections.abc import Callable
 from dataclasses import dataclass
 
 from bs4 import BeautifulSoup, Tag
@@ -24,8 +25,13 @@ COURSE_ENTRY_SELECTOR = "div.accordion__content > p"
 COURSE_HEADING_PATTERN = re.compile(
     r"^(?P<code>[A-Z]{2,5}\s+\d+[A-Za-z]?)\s+(?P<title>.+)$"
 )
+COURSE_LIKE_PREFIX = re.compile(r"^[A-Z]{2,5}\s+(?:\d[\w-]*|\?+)(?=\s|$)")
 WHITESPACE_PATTERN = re.compile(r"\s+")
 PREREQUISITE_PATTERN = re.compile(r"^Prerequisites?:\s*", re.IGNORECASE)
+
+
+class CourseParsingError(RuntimeError):
+    """A course could not be converted into a catalog record."""
 
 
 def _normalize_text(text: str) -> str:
@@ -85,7 +91,11 @@ def _extract_raw_course(entry: Tag) -> RawCourse | None: #return singular RawCou
     )
 
 
-def parse_raw_courses(document: BeautifulSoup) -> list[RawCourse]:
+def parse_raw_courses(
+    document: BeautifulSoup,
+    *,
+    report_issue: Callable[[str], None] | None = None,
+) -> list[RawCourse]:
     courses: list[RawCourse] = []
 
     for entry in document.select(COURSE_ENTRY_SELECTOR):
@@ -93,6 +103,12 @@ def parse_raw_courses(document: BeautifulSoup) -> list[RawCourse]:
 
         if course is not None:
             courses.append(course)
+        elif report_issue is not None:
+            heading = entry.find("strong")
+            candidate = heading if heading is not None else entry
+            text = _normalize_text(candidate.get_text(" ", strip=True))
+            if COURSE_LIKE_PREFIX.match(text) or entry.select_one("span.requirement"):
+                report_issue(f"Extraction skipped a malformed course heading: {text[:160]!r}")
 
     return courses
 
@@ -109,5 +125,22 @@ def _build_course(raw: RawCourse) -> Course:
     )
 
 
-def parse_courses(document: BeautifulSoup) -> list[Course]:
-    return [_build_course(raw) for raw in parse_raw_courses(document)]
+def parse_courses(
+    document: BeautifulSoup,
+    *,
+    report_issue: Callable[[str], None] | None = None,
+) -> list[Course]:
+    courses: list[Course] = []
+    for raw in parse_raw_courses(document, report_issue=report_issue):
+        try:
+            course = _build_course(raw)
+        except (ValueError, RecursionError) as exc:
+            raise CourseParsingError(f"Could not parse course {raw.code}: {exc}") from exc
+
+        if report_issue is not None and raw.pre_req_text and course.pre_req is None:
+            report_issue(
+                f"No course prerequisite parsed for {raw.code}: {raw.pre_req_text!r}"
+            )
+        courses.append(course)
+
+    return courses
