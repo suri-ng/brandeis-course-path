@@ -1,8 +1,11 @@
+from pathlib import Path
+
 import pytest
 from bs4 import BeautifulSoup
 
 from app.models import Course, PrereqGroup
 from app.services.course_parser import (
+    CourseParsingError,
     RawCourse,
     _build_course,
     _entry_text_parts,
@@ -12,6 +15,9 @@ from app.services.course_parser import (
     parse_courses,
     parse_raw_courses,
 )
+
+
+FIXTURE_PATH = Path(__file__).parent / "fixtures" / "cosi.html"
 
 
 def soup(html: str) -> BeautifulSoup:
@@ -332,3 +338,122 @@ def test_parse_courses_returns_final_pydantic_courses() -> None:
         operator="AND",
         items=["PSYC 10a", "PSYC 51a"],
     )
+
+
+def test_cosi_fixture_extracts_expected_courses_and_fields() -> None:
+    document = soup(FIXTURE_PATH.read_text(encoding="utf-8"))
+
+    courses = parse_courses(document)
+
+    assert [course.code for course in courses] == [
+        "COSI 10a",
+        "COSI 12b",
+        "COSI 98a",
+        "COSI 121b",
+        "COSI 123a",
+    ]
+    by_code = {course.code: course for course in courses}
+    assert by_code["COSI 10a"].title == "Introduction to Problem Solving in Python"
+    assert by_code["COSI 10a"].core_req == ["dl", "sn"]
+    assert by_code["COSI 10a"].pre_req is None
+    assert by_code["COSI 12b"].core_req == ["dl", "sn", "wi"]
+    assert by_code["COSI 12b"].pre_req == PrereqGroup(
+        operator="OR",
+        items=["COSI 10a"],
+    )
+    assert by_code["COSI 98a"].core_req == []
+    assert by_code["COSI 98a"].pre_req is None
+    assert by_code["COSI 121b"].description == (
+        "Explores programming paradigms, abstraction, and language design."
+    )
+
+
+def test_cosi_fixture_preserves_deeply_nested_prerequisites() -> None:
+    document = soup(FIXTURE_PATH.read_text(encoding="utf-8"))
+    course = next(
+        course for course in parse_courses(document) if course.code == "COSI 123a"
+    )
+
+    assert course.pre_req == PrereqGroup(
+        operator="AND",
+        items=[
+            "COSI 21a",
+            "COSI 104a",
+            "MATH 8a",
+            PrereqGroup(
+                operator="OR",
+                items=[
+                    "MATH 22a",
+                    PrereqGroup(
+                        operator="AND",
+                        items=["MATH 15a", "MATH 20a"],
+                    ),
+                ],
+            ),
+        ],
+    )
+
+
+def test_reports_malformed_course_like_entry_and_continues() -> None:
+    document = catalog_page(
+        '<p><strong>COSI ??? Missing Number</strong>'
+        '<span class="requirement">sn</span></p>',
+        course_entry("COSI 10a Introduction to Python", details="A valid course."),
+    )
+    issues: list[str] = []
+
+    courses = parse_courses(document, report_issue=issues.append)
+
+    assert [course.code for course in courses] == ["COSI 10a"]
+    assert len(issues) == 1
+    assert "malformed course heading" in issues[0]
+    assert "COSI ???" in issues[0]
+
+
+def test_ordinary_non_course_paragraph_does_not_create_warning() -> None:
+    document = catalog_page(
+        "<p>General department information.</p>",
+        course_entry("COSI 10a Introduction to Python", details="A valid course."),
+    )
+    issues: list[str] = []
+
+    parse_courses(document, report_issue=issues.append)
+
+    assert issues == []
+
+
+def test_reports_unparsed_nonempty_prerequisite_with_course_code() -> None:
+    document = catalog_page(
+        course_entry(
+            "COSI 216a Topics in Natural Language Processing",
+            details="Prerequisites: vary by topic.<br><br>Reviews recent research.",
+        )
+    )
+    issues: list[str] = []
+
+    courses = parse_courses(document, report_issue=issues.append)
+
+    assert courses[0].pre_req is None
+    assert issues == [
+        "No course prerequisite parsed for COSI 216a: 'vary by topic.'"
+    ]
+
+
+def test_parsing_exception_identifies_affected_course(monkeypatch: pytest.MonkeyPatch) -> None:
+    document = catalog_page(
+        course_entry(
+            "COSI 121b Structure and Interpretation",
+            details="Prerequisite: COSI 21a.<br><br>Course description.",
+        )
+    )
+
+    def reject_prerequisite(_: str) -> None:
+        raise ValueError("unsupported wording")
+
+    monkeypatch.setattr(
+        "app.services.course_parser.parse_prerequisites",
+        reject_prerequisite,
+    )
+
+    with pytest.raises(CourseParsingError, match="COSI 121b.*unsupported wording"):
+        parse_courses(document)

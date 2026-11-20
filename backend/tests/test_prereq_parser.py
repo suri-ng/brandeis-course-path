@@ -228,3 +228,18 @@ def test_repeated_whitespace_and_newlines_are_normalized() -> None:
 
 def test_unrecognized_prose_without_codes_returns_none() -> None:
     assert parse_prerequisites("A prior programming course is recommended.") is None
+
+
+def test_placement_exam_phrase_does_not_create_self_prerequisite() -> None:
+    text = "MATH 22a placement exam and permission of the instructor."
+
+    assert parse_prerequisites(text) is None
+
+
+def test_credit_restriction_tail_does_not_create_prerequisites() -> None:
+    text = (
+        "MATH 5a and permission of the instructor. "
+        "Students may take MATH 15a or MATH 22a for credit, but not both."
+    )
+
+    assert parse_prerequisites(text) == group("AND", "MATH 5a")
